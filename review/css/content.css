@@ -1,0 +1,14 @@
+.content__wrap {
+}
+
+.content {
+  border-right: 1px solid #dbdbdb;
+  border-bottom: none;
+}
+
+.contents:last-child {
+  border-bottom: none;
+}
+.content:last-child {
+  border: none;
+}
