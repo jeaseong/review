@@ -1,0 +1,63 @@
+.nav__wrap {
+  background: #f6fdff;
+}
+
+.nav__bar {
+  overflow: hidden;
+  display: none;
+}
+.nav__bar h3 {
+  font-size: 18px;
+  color: #25a2d0;
+  font-weight: 600;
+
+  margin-top: 13px;
+  margin-bottom: 6px;
+}
+
+.list__container {
+  float: left;
+  width: 40%;
+}
+.list__container-last {
+  width: 20%;
+}
+
+.nav__list-lists {
+  float: left;
+  width: 50%;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.list__container-last .nav__list-lists {
+  width: 100%;
+}
+
+.title {
+  background: #eaf7fd;
+}
+.nav__text {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+.nav__text-text {
+  font-size: 39px;
+  color: #0093bd;
+}
+
+.nav__text-icon {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #3192bf;
+  color: #fff;
+  font-size: 35px;
+  border-radius: 50%;
+  font-weight: 400;
+  font-weight: 300;
+}

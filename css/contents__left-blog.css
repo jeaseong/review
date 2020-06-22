@@ -1,0 +1,17 @@
+.blog__column {
+  padding-bottom: 10px;
+}
+.blog__column img {
+  width: 100%;
+}
+
+.blog-retina {
+  background-image: url(../img/blog4_@1.jpg);
+  background-size: cover;
+}
+
+.blog__column figcaption {
+  padding: 10px 0;
+  font-size: 13px;
+  line-height: 1.3;
+}

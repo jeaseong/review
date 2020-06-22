@@ -1,0 +1,39 @@
+.notice__top {
+}
+
+.notice__top-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notice__top-title h5 {
+  font-size: 14px;
+  color: #2f7fa6;
+  padding-bottom: 7px;
+}
+
+.notice__top-title .notice-more {
+  font-size: 10px;
+  color: #878787;
+  padding-right: 8px;
+}
+
+.notice__list {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.notice__list-list {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.notice__list-list.notice-two {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
