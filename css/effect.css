@@ -1,0 +1,128 @@
+.front {
+}
+
+.contents__right img {
+  width: 100%;
+  height: 100%;
+}
+
+.contents__effect-1 {
+  position: relative;
+}
+
+.contents__effect-1 i {
+  font-size: 40px;
+  position: absolute;
+  top: 39%;
+  left: 41%;
+}
+
+.contents__effect-1 .front {
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: all 0.5s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.contents__effect-1:hover .front {
+  transform: rotateY(180deg);
+}
+
+.contents__effect-1 .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform-style: preserve-3d;
+  color: #fff;
+  background: #4038dc;
+  transform: rotateY(-180deg);
+  transition: all 0.5s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.contents__effect-1:hover .back {
+  transform: rotateY(0deg);
+  z-index: 1;
+}
+
+.contents__effect-2 {
+  position: relative;
+}
+
+.contents__effect-2 figure {
+  position: relative;
+}
+
+.contents__effect-2 figcaption {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 12px 10px;
+  width: 75%;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  font-weight: bold;
+  transform: translateZ(100px);
+  display: block;
+}
+
+.contents__effect-2 .front {
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: all 0.5s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.contents__effect-2 .front:hover {
+  transform: rotateY(180deg);
+}
+
+.contents__effect-2 .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform-style: preserve-3d;
+  transform: rotateY(-180deg);
+  transition: all 0.5s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.contents__effect-2:hover .back {
+  transform: rotateY(0deg);
+  z-index: 1;
+}
+
+.contents__effect-3 figure {
+  position: relative;
+}
+
+.contents__effect-3 figcaption {
+  position: absolute;
+  top: 36%;
+  left: 29%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
+  font-size: 19px;
+  transition: all 0.3s ease-in-out;
+  transform: rotate(180deg);
+  opacity: 0;
+}
+
+.contents__effect-3:hover figcaption {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.contents__effect-3 .front:hover img {
+  opacity: 0.4;
+}

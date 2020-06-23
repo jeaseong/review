@@ -1,0 +1,56 @@
+.contents__lightbox {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 3px;
+}
+
+.contents__lightbox a {
+  position: relative;
+}
+
+.contents__lightbox em {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  bottom: 3px;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.contents__lightbox a:hover em {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contents__lightbox a:nth-child(1):hover img {
+  filter: blur(2px);
+}
+.contents__lightbox a:nth-child(2):hover img {
+  filter: brightness(50%);
+}
+.contents__lightbox a:nth-child(3):hover img {
+  filter: contrast(10%);
+}
+.contents__lightbox a:nth-child(4):hover img {
+  filter: grayscale(100%);
+}
+.contents__lightbox a:nth-child(5):hover img {
+  filter: hue-rotate(120deg);
+}
+.contents__lightbox a:nth-child(6):hover img {
+  filter: invert(100%);
+}
+.contents__lightbox a:nth-child(7):hover img {
+  filter: opacity(20%);
+}
+.contents__lightbox a:nth-child(8):hover img {
+  filter: saturate(10%);
+}
+.contents__lightbox a:nth-child(9):hover img {
+  filter: sepia(120%);
+}
+.contents__lightbox a:nth-child(10):hover img {
+  filter: sepia(120%) hue-rotate(120deg);
+}

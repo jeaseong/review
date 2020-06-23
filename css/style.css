@@ -8,6 +8,9 @@
 @import "contents__left-notice.css";
 @import "contents__left-blog.css";
 @import "slide.css";
+@import "blend.css";
+@import "effect.css";
+@import "footer.css";
 
 * {
   box-sizing: border-box;
@@ -28,10 +31,10 @@ a {
 
 .row {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 img {
-  width: 100px;
+  width: 150px;
   height: 100px;
 }
